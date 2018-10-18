@@ -3,26 +3,30 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Validation</title>
+	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-	<form id="form1">
-	  <p>
-	  	<label>
-	  		<input id="fname" name="name" placeholder="Введіть ім'я">
-	  	</label>
-	  </p>
-	  <p>
-	  	<label>
-	  		<input id="fmail" name="email" placeholder="Введіть e-mail"> формат: email@site.com
-	  	</label>
-	  </p>
-	  <p>
-	  	<label>
-	  		<input id="ftel" name="phone" placeholder="Введіть телефон"> формат: +38 (099) 999-99-99
-	  	</label>
-	  </p>
-	  <p><input id="btn" type="submit" value="Відправити"></p>
-	</form>
-	<script src="script.js"></script>
+	<div class="container">
+		<h1>Validator</h1>
+		<form id="formValid">
+		  <p>
+		  	<label>
+		  		<input id="fname" name="name" class="form-field" placeholder="Введіть ім'я">
+		  	</label>
+		  </p>
+		  <p>
+		  	<label>
+		  		<input id="fmail" name="email" class="form-field" placeholder="Введіть e-mail"> формат: email@site.com
+		  	</label>
+		  </p>
+		  <p>
+		  	<label>
+		  		<input id="ftel" name="phone" class="form-field" placeholder="Введіть телефон"> формат: +38 (099) 999-99-99
+		  	</label>
+		  </p>
+		  <p><button id="btn" type="submit">Відправити</button></p>
+		</form>
+	</div>
+	<script src="optimal.js"></script>
 </body>
 </html>
