@@ -1,0 +1,40 @@
+body {
+	background: #ccc;
+	font-family: Arial, sans-serif;
+}
+
+input {
+	width: 230px;
+	padding: 8px 13px;
+	margin-right: 10px;
+	border: none;
+	border-radius: 3px solid #eee;
+	outline: none;
+}
+
+button {
+	padding: 8px 13px;
+	background: #4264B3;
+	color: #fff;
+	cursor: pointer;
+	border: none;
+	outline: none;
+}
+
+h1 {
+	text-align: center;
+}
+
+.container {
+	max-width: 880px;
+	margin: 0 auto;
+}
+
+.success {
+	background: #fbfec4;
+	border: 2px solid #377e22;
+}
+
+.error {
+	border: 2px solid #eb3323;
+}
