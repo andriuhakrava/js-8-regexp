@@ -15,7 +15,7 @@
 	- останнє слово кожного речення;
 	- домени верхнього рівня.
 
-	**File: regexp-online-service.js**
+**File: regexp-online-service.js**
 
 1. Створіть проект validator з формою вводу даних:
 
